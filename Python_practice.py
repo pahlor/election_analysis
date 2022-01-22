@@ -16,7 +16,7 @@ else:
 for county in counties:
     print(county)
 
-counties_dict = {"Arapahoe": 42289, "Denver": 463353, "Jefferson": 432438}
+counties_dict = {"Arapahoe": 422289, "Denver": 463353, "Jefferson": 432438}
 
 for county in counties_dict:
     print(county)
