@@ -92,7 +92,7 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write(election_results)
 
     # 6a: Write a for loop to get the county from the county dictionary.
-    for counties in counties_votes:
+    for county_name in counties_votes:
        
         # 6b: Retrieve the county vote count.
         county_votes_total = counties_votes.get(county_name)
